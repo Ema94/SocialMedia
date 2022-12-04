@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    background-color: rgb(163, 230, 230);
+  }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-content: center;
+    text-align: center;
+    width: 30vh;
+    height: 55vh;
+    border: transparent;
+    border-radius: 25px;
+    background-color: white;
+
+}
+
+.covercontainer{
+    width: 100%;
+    height: 5vh;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url(../img/Cover_Image.jpg);
+    margin-bottom: 5vh;
+    background-size: cover;
+}
+.profileimgcontainer{
+    margin-top: 3vh;
+    z-index: 1;
+}
+.profileimg{
+    width: 5vh;
+    
+}
+
+.profile-name{
+    margin-bottom: 1rem;
+}
+.profile-name label{
+    color: rgba(128, 128, 128, 0.795);
+    font-size: 0.7rem;
+    font-weight:800;
+}
+.profile-desc{
+    text-align: center;
+    padding: 1rem;
+}
+.profile-desc label{
+    color: rgba(128, 128, 128, 0.795);
+    font-size: 1rem;
+    font-weight:500;
+}
+.metrics{
+    display: flex;
+    place-content: center center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.post{
+    margin-bottom: 1rem;
+}
+.post label{
+    font-size: small;
+    color:rgba(128, 128, 128, 0.795);
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.follow-metrics{
+    display: flex;
+    place-content: center;
+    text-align: center;
+    gap: 3rem;
+    margin-left: 1px solid black;
+
+}
+
+.follow-labels{
+    display: flex;
+    place-content: center;
+    text-align: center;
+    font-size: small;
+    color:rgba(128, 128, 128, 0.795);
+    gap: 2rem;
+}
+.profile-actions li{
+        list-style-type: none;
+}
+
+
+.profile-actions ul{
+    display: flex;
+    gap:10px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+
+.go-profile{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    place-content: center end;
+    font-size: small;
+    color: blue;
+    margin-bottom: 10px;
+}
