@@ -1,6 +1,6 @@
-# SocialMedia
+# Social Media
 Attemp of Social Community
 
-# following construction
+# Following Construction
 
 Open with Visual Studio "Live Server" extension
