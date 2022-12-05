@@ -1,5 +1,5 @@
-# Social Media
-Attemp of Social Community
+# Social Media Layout
+Attemp Social Community Layout 
 
 # Following Construction
 
