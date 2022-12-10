@@ -177,10 +177,8 @@ nav{
 }
 
 .msg-buttom-container{
-    display: flex;
     position: fixed;
     width: 100%;
-    place-content: end;
 
 }
 
