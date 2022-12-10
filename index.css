@@ -19,10 +19,10 @@
     align-content: center;
     text-align: center;
     width: 30vh;
+    height: 30%;
     border: transparent;
     border-radius: 25px;
     background-color: white;
-
 }
 
 .covercontainer{
@@ -189,4 +189,102 @@ nav{
     border-radius: 25px;
     font-size: 3rem;
     border: 1px #727171 solid;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    gap: 10rem;
+}
+
+.land{
+    display: flex;
+    width: 50%;
+    place-content: center;
+}
+.do-post{
+    display: flex;
+    flex-direction: column;
+    border: transparent;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 65%;
+
+}
+
+.do-post-head{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.do-post-head-publish{
+    display: flex;
+}
+
+.do-post-head-publish img{
+    width: 5vh;
+    border-radius: 25px;
+    margin: 1rem;   
+}
+.do-post-head-publish input{
+    border: transparent;
+    outline:none;
+}
+.do-post-head-items{
+    display: flex;
+    width: 100%;
+    place-content: center;
+    gap: 1rem;
+
+}
+
+.do-post-head-item{
+    display: flex;
+    text-align: center;
+    background-color: gray;
+    gap:1rem;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: small;
+}
+
+.do-post-body{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.do-post-card{
+    background-color:white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.do-post-card-head{
+    display: flex;
+    gap: 1rem;
+}
+
+.do-post-card-head img{
+   width: 3vw;
+   border-radius: 20px;
+}
+
+.do-post-card-body{
+    margin-top: 10px;
+}
+
+.do-post-card-body img{
+    width: 100%;
+}
+.do-post-card-footer{
+
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+    font-weight: 600;
 }
